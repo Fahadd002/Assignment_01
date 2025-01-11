@@ -41,6 +41,7 @@ padding: 80px 100px 80px 100px;
 margin: 20px auto;
 border-radius: 24px;
 background: rgb(198, 228, 214);
+margin-bottom: 60px;
 }
 .section-1 h5
 {
@@ -70,6 +71,7 @@ padding: 17px 34px 17px 34px;
 border-radius: 8px;
 background: rgb(0, 106, 80);
 transition: .3s;
+margin-top: 30px;
 }
 .section-1 button a
 {
@@ -86,4 +88,62 @@ border: none;
 .section-1 button:hover
 {
 background-color: rgb(227, 12, 12);
+}
+
+.section-2
+{
+    width: 1280px;
+    margin: 10px auto;
+}
+.section-2 h2{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.section-2 .grid-container 
+{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24px;
+}
+
+.section-2 .grid-sm 
+{
+width: 302px;
+height: 244px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background:white;
+padding: 24px;
+margin-top: 32px;
+}
+
+.section-2 .grid-sm h5
+{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section-2 .grid-sm p
+{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
