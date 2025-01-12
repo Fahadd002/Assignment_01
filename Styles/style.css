@@ -29,6 +29,7 @@ font-size: 15px;
 font-weight: 600;
 line-height: 22px;
 text-align: left;
+border: none;
 }
 .section-1
 {
@@ -74,6 +75,7 @@ border-radius: 8px;
 background: rgb(0, 106, 80);
 transition: .3s;
 margin-top: 30px;
+border: none;
 }
 .section-1 button a
 {
@@ -85,7 +87,7 @@ line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
 text-decoration:  none;
-border: none;
+
 }
 .section-1 button:hover
 {
@@ -97,7 +99,7 @@ background-color: rgb(227, 12, 12);
    
     margin: 10px auto;
 }
-.section-2 h2{
+.section-head{
 color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 36px;
@@ -151,18 +153,10 @@ margin-top: 32px;
 }
 .section-3
 {
-height: 765px;
+height: 700px;
 margin-top: 60px;
 }
-.section-3 h2{
-color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
-}
+
 .section-3 p{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -234,13 +228,25 @@ border:  none;
    border: 1px solid rgba(14, 14, 14, 0.15);
    border-radius: 16px;
    margin-top: 20px;
+   background: rgb(255, 255, 255);
 }
 .article-container {
     background-image: url('/Pictures/quote-bg.png');
    background-repeat: no-repeat;
    background-size: 60px 50px;
-  padding: 20px 20px;
-
-   
+  padding: 20px 0px;   
 }
+.section-4
+{
+    height: 480px;
+}
+.section-4-container {
+padding: 32px;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+height: 350px;
+margin-top: 15px;
+}
+
+
 
