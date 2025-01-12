@@ -3,15 +3,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+body
+{  
+width: 1280px;
+margin: 0px auto;
+}
 nav{
 height: 100px;
-width: 1280px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-margin: 0px auto;
 }
 
 nav button{
@@ -30,7 +32,7 @@ text-align: left;
 }
 .section-1
 {
-width: 1280px;
+
 height: 560px;
 display: flex;
 flex-direction: row;
@@ -92,7 +94,7 @@ background-color: rgb(227, 12, 12);
 
 .section-2
 {
-    width: 1280px;
+   
     margin: 10px auto;
 }
 .section-2 h2{
@@ -105,7 +107,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.section-2 .grid-container 
+.section-2 .grid-container-1
 {
 
 display: flex;
@@ -147,3 +149,98 @@ margin-top: 32px;
     letter-spacing: 0%;
     text-align: left;
 }
+.section-3
+{
+height: 765px;
+margin-top: 60px;
+}
+.section-3 h2{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.section-3 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+.section-3 .grid-container-2
+{
+    height: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+.section-3 .grid-md 
+{
+
+width: 410.67px;
+height: 300px;
+padding: 32px;
+box-sizing: border-box;
+border-radius: 16px;
+}
+
+.section-3 .grid-md h5
+{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section-3 .grid-md p
+{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    min-height: 72px;
+}
+.section-3 .grid-md button
+{
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    margin: 24px 0px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border:  none;
+}
+.section-3 article {
+   padding: 20px 20px;
+   border: 1px solid rgba(14, 14, 14, 0.15);
+   border-radius: 16px;
+   margin-top: 20px;
+}
+.article-container {
+    background-image: url('/Pictures/quote-bg.png');
+   background-repeat: no-repeat;
+   background-size: 60px 50px;
+  padding: 20px 20px;
+
+   
+}
+
