@@ -5,7 +5,7 @@
 }
 body
 {  
-width: 1280px;
+width: 1200px;
 margin: 0px auto;
 }
 nav{
@@ -15,7 +15,11 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 }
-
+/* main{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+} */
 nav button{
 width: 116px;
 height: 52px;
@@ -39,12 +43,9 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-gap: 64;
 padding: 80px 100px 80px 100px;
-margin: 20px auto;
 border-radius: 24px;
 background: rgb(198, 228, 214);
-margin-bottom: 60px;
 }
 .section-1 h5
 {
@@ -94,11 +95,6 @@ text-decoration:  none;
 background-color: rgb(227, 12, 12);
 }
 
-.section-2
-{
-   
-    margin: 10px auto;
-}
 .section-head{
 color: rgb(14, 14, 14);
 font-family: Fira Sans;
@@ -128,7 +124,7 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 background:white;
 padding: 24px;
-margin-top: 32px;
+margin-top: 20px;
 }
 
 .section-2 .grid-sm h5
@@ -141,8 +137,8 @@ margin-top: 32px;
     letter-spacing: 0%;
     text-align: left;
 }
-.section-2 .grid-sm p
-{
+
+p{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -150,22 +146,8 @@ margin-top: 32px;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
-}
-.section-3
-{
-height: 700px;
-margin-top: 60px;
 }
 
-.section-3 p{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    }
 .section-3 .grid-container-2
 {
     height: 325px;
@@ -174,7 +156,7 @@ margin-top: 60px;
     justify-content: flex-start;
     align-items: center;
     gap: 50px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .section-3 .grid-md 
 {
@@ -196,17 +178,7 @@ border-radius: 16px;
     letter-spacing: 0%;
     text-align: left;
 }
-.section-3 .grid-md p
-{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    min-height: 72px;
-}
+
 .section-3 .grid-md button
 {
     width: 122px;
@@ -236,10 +208,6 @@ border:  none;
    background-size: 60px 50px;
   padding: 20px 0px;   
 }
-.section-4
-{
-    height: 480px;
-}
 .section-4-container {
 padding: 32px;
 border-radius: 16px;
@@ -247,10 +215,6 @@ background: rgb(255, 255, 255);
 height: 350px;
 margin-top: 15px;
 }
-
-
-
-
 .section-5
 {
 height: 1250px;
@@ -263,15 +227,7 @@ flex: none;
 order: 3;
 flex-grow: 0;
 }
-.section-5 p{
-color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-}
+
 .news-content {
     border-radius: 24px;
     background: rgb(255, 255, 255);
@@ -312,6 +268,61 @@ position: relative;
 }
 .news button
 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.section-6{
+    padding: 0px 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.section-6 div
+{
+    margin: 0px auto;
+}
+.section-6 h2, .section-6 p{
+   text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+.card .card-container{
+    width: 200px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+.card-container:hover{
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+.section-6 input
+{
+    width: 800px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    font-size: 20px;
+    text-align: center;
+}
+.common-btn{
     border-radius: 8px;
     background: rgb(0, 106, 80);
     border: none;
@@ -322,8 +333,9 @@ position: relative;
     font-weight: 600;
     letter-spacing: 0%;
     text-align: left;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    transition: .3s;
 }
-
+.common-btn:hover{
+    background-color: rgb(227, 12, 12);
+    cursor: pointer;
+}
